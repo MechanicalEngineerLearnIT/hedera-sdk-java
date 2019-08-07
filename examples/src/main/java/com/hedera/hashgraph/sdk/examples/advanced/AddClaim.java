@@ -30,6 +30,6 @@ public final class AddClaim {
 
         var receipt = tx.executeForReceipt();
 
-        System.out.println("Succesfully added claim to " + receipt.getAccountId().toString());
+        System.out.println("Successfully added claim to " + receipt.getAccountId().toString());
     }
 }
